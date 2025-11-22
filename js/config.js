@@ -13,7 +13,7 @@ const PASSWORD_CONFIG = {
 
 // 网站信息配置
 const SITE_CONFIG = {
-    name: '7Kan',
+    name: '17Kan',
     url: 'https://libretv.is-an.org',
     description: '免费在线视频搜索与观看平台',
     logo: 'image/logo.png',
@@ -88,42 +88,6 @@ const API_SITES = {
         api: 'https://cj.lziapi.com/api.php/provide/vod/',
         name: '量子资源站'
     },
-    testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
-        name: '空内容测试源',
-        adult: true
-    },
-    ckzy: {
-        api: 'https://www.ckzy1.com',
-        name: 'CK资源',
-        adult: true
-    },
-    jkun: {
-        api: 'https://jkunzyapi.com',
-        name: 'jkun资源',
-        adult: true
-    },
-   souav: {
-        api: 'https://api.souavzy.vip',
-        name: 'souav资源',
-        adult: true
-    },
-   lsb: {
-        api: 'https://apilsbzy1.com',
-        name: 'lsb资源',
-        adult: true
-    },
-    huangcang: {
-        api: 'https://hsckzy.vip',
-        name: '黄色仓库',
-        adult: true
-    },
-    yutu: {
-        api: 'https://yutuzy10.com',
-        name: '玉兔资源',
-        adult: true
-    },
-
     // 下面是资源失效率高的API源，不建议使用
     subo: {
         api: 'https://subocaiji.com/api.php/provide/vod',
